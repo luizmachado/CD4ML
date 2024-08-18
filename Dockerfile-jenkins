@@ -1,7 +1,7 @@
-FROM jenkins/jenkins:2.347-jdk11
+FROM jenkins/jenkins:2.401.3-jdk11
 
 USER jenkins
-RUN jenkins-plugin-cli --plugins blueocean:1.25.5 build-timestamp:1.0.3 timestamper:1.17 pollscm:1.3.1 github-api:1.303-400.v35c2d8258028
+RUN jenkins-plugin-cli --plugins blueocean:1.25.5 build-timestamp:1.0.3 timestamper:1.17 pollscm:1.3.1 github-api:1.316-451.v15738eef3414 github-branch-source:1771.v59b_6a_fa_1b_89e
 
 USER root
 ENV FLUENTD_HOST "fluentd"
