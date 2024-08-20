@@ -26,6 +26,6 @@ def get_trained_model(algorithm_name,
     logger.info('n_rows: %s, n_cols: %s' % (n_rows, n_cols))
 
     trained_model = train_model(encoded_train_data, target_data, algorithm_name,
-                                algorithm_params, seed=seed, max_features=5)
+                                algorithm_params, seed=seed)
 
     return trained_model
