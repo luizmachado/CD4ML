@@ -1,16 +1,16 @@
-numpy==1.21.5
+numpy==1.26.4
 pandas==1.3.5
-scikit-learn==1.0.2
+scikit-learn==1.5.1
 flask==3.0.0
-mlflow==1.23.1
-joblib==0.16.0
+mlflow==2.15.1
+joblib==1.4.0
 lime==0.2.0.1
-fluent-logger==0.10.0
-bokeh==2.4.2
-arrow==1.2.1
-wickedhot==0.2.5
-boto3==1.23.7
-protobuf==3.20.1
+fluent-logger==0.11.1
+bokeh==3.5.1
+arrow==1.3.0
+wickedhot==0.2.6
+boto3==1.35.1
+protobuf==5.27.3
 
 # Testing Dependencies
 requests-mock==1.8.0
